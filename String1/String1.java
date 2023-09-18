@@ -6,11 +6,6 @@ public class String1
         String str2 = str1;
         String str3 = "I am also a string";
         boolean stringsEqual;
-        if (str1 == str3) {
-            stringsEqual = true;
-        } else {
-            stringsEqual = false;
-        }
-        
+        stringsEqual = str1.equals(str3);
      }
 }
